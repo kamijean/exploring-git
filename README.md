@@ -22,6 +22,7 @@ Git command | Description
 **git stash show** | Shows a specific stash or the last one
 **git stash ( pop / apply )** | Pops off the last stash on the stack
 **git reset** | Reset current HEAD to the specified state -- git reset —soft HEAD^ to remove uncommited changes
+**git rm --cached FILE** | To stop tracking a file by removing it from the index of the git repo
 
 ### Preparation
 If you have not already done so, set up a GitHub account
@@ -61,29 +62,31 @@ If you have not already done so, set up a GitHub account
 
 17) Rebase the rebase branch into master (make sure to view the changes made to the repo, it should have text added to it)
 
-18) Add and commit your changes to the repo
+18) Fix the conflicts by only keeping the text you wrote, not the text from the branch (This text will disappear :()
 
-19) Put text into the stash p tags and then stash the changes
+19) Add and commit your changes to the repo
 
-20) Merge the merge branch into the master branch (make sure to view the changes made to the repo, it should have text added to it)
+20) Put text into the stash p tags and then stash the changes
 
-21) Add and commit if there are any changes to the repo
+21) Merge the merge branch into the master branch (make sure to view the changes made to the repo, it should have text added to it)
 
-22) Pop from the stash
+22) Add and commit if there are any changes to the repo
 
-23) Add and commit if there are any changes to the repo
+23) Pop from the stash
 
-24) Put text into the remove p tags
+24) Add and commit if there are any changes to the repo
 
-25) Reset the repository
+25) Put text into the remove p tags
 
-26) Add and commit if there are any changes to the repo
+26) Reset the repository
 
-27) Create a gitignore file in the main section of the project
+27) Add and commit if there are any changes to the repo
 
-28) Ignore all the .txt files (and if you have a mac ignore the DS_Store files)
+28) Create a gitignore file in the main section of the project
 
-29) Add and commit if there are any changes to the repo
+29) Ignore all the .txt files (and if you have a mac ignore the DS_Store files)
+
+30) Add and commit if there are any changes to the repo
 
 ### Extra Learning
 Free Git Tutorials
