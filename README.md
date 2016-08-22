@@ -1,7 +1,7 @@
 # Exploring-Git
 
 This exercise will give you a chance to explore basic use of Git and GitHub.
-Note: The pull request you submit should not involve this repo (kamijean/git_challenge). Do not create a pull request to this repository, but to your own.
+Note: The pull request you submit should not involve this repo (USUCS2610/exploring-git). Do not create a pull request to this repository, but to your own.
 
 ## Quick Lookup
 Git command | Description
