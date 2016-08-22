@@ -94,5 +94,7 @@ Github has a timestamp and will show if the work has been done.
 
 ### Extra Learning
 1) Learn something about git
+
 2) Add a new file to the repository
+
 3) Tell me about something useful you've learned
