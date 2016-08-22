@@ -27,7 +27,7 @@ Git command | Description
 If you have not already done so, set up a GitHub account
 
 ## Assignment
-1) Fork this repo.
+1) Fork this repo -- make sure to keep it private.
 
 2) In your forked repo, go to Settings and click Collaborators & teams.
 
@@ -70,6 +70,12 @@ If you have not already done so, set up a GitHub account
 20) Reset the repository
 
 21) Add and commit if there are any changes to the repo
+
+22) Create a gitignore file in the main section of the project
+
+23) Ignore all the .txt files (and if you have a mac ignore the DS_Store files)
+
+24) Add and commit if there are any changes to the repo
 
 ### Extra Learning
 Free Git Tutorials
