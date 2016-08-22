@@ -22,7 +22,7 @@ Git command | Description
 **git stash show** | Shows a specific stash or the last one
 **git stash ( pop / apply )** | Pops off the last stash on the stack
 **git reset** | Reset current HEAD to the specified state -- git reset —soft HEAD^ to remove uncommited changes
-  
+
 ### Preparation
 If you have not already done so, set up a GitHub account
 
@@ -45,37 +45,45 @@ If you have not already done so, set up a GitHub account
 
 9) Look online to see if your change has been pushed.
 
-10) Merge the merge_conflict branch into the master branch
+10) Checkout the merge_conflict branch and see the differences of the branches
 
-11) Fix the conflicts
+11) Merge the merge_conflict branch into the master branch
 
-12) Add and commit if there are any changes to the repo
+12) Fix the conflicts by keeping both texts
 
-13) Rebase the rebase branch into master (make sure to view the changes made to the repo, it should have text added to it)
+13) Add and commit if there are any changes to the repo
 
-14) Add and commit your changes to the repo
+14) Add some text to the rebase p tags
 
-15) Put text into the stash p tags and then stash the changes
+15) Add and commit your changes to the repo
 
-16) Merge the merge branch into the master branch (make sure to view the changes made to the repo, it should have text added to it)
+16) Checkout the rebase branch and see the differences of the branches
 
-17) Add and commit if there are any changes to the repo
+17) Rebase the rebase branch into master (make sure to view the changes made to the repo, it should have text added to it)
 
-19) Pop from the stash
+18) Add and commit your changes to the repo
 
-18) Add and commit if there are any changes to the repo
+19) Put text into the stash p tags and then stash the changes
 
-19) Put text into the remove p tags
-
-20) Reset the repository
+20) Merge the merge branch into the master branch (make sure to view the changes made to the repo, it should have text added to it)
 
 21) Add and commit if there are any changes to the repo
 
-22) Create a gitignore file in the main section of the project
+22) Pop from the stash
 
-23) Ignore all the .txt files (and if you have a mac ignore the DS_Store files)
+23) Add and commit if there are any changes to the repo
 
-24) Add and commit if there are any changes to the repo
+24) Put text into the remove p tags
+
+25) Reset the repository
+
+26) Add and commit if there are any changes to the repo
+
+27) Create a gitignore file in the main section of the project
+
+28) Ignore all the .txt files (and if you have a mac ignore the DS_Store files)
+
+29) Add and commit if there are any changes to the repo
 
 ### Extra Learning
 Free Git Tutorials
