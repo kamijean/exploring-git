@@ -28,65 +28,69 @@ Git command | Description
 If you have not already done so, set up a GitHub account
 
 ## Assignment
-1) Fork this repo -- make sure to keep it private.
+1) Fork this repo.
 
 2) In your forked repo, go to Settings and click Collaborators & teams.
 
 3) At the bottom, add kamijean as a collaborator.
 
-4) Clone the forked repo.
+4) Clone the forked repo locally.
 
-5) Add some text to the mergeConflict p tags
+5) Create a .gitignore file in the main section of the project
 
-6) Use git add to add the changes of the file to the repository
+6) Ignore all the .txt files and .orig files (and if you have a mac ignore the DS_Store files)
 
-7) Use git commit to commit your change. Use a meaningful message like "Added information about YOUR NAME HERE."
+7) Use git commit to commit your change. Use a meaningful message like "Added .gitignore file.”
 
 8) Use git push to send your change to the primary repository.
 
-9) Look online to see if your change has been pushed.
+9) Run “git rm --cached *.txt” to clear out already pushed up .txt file
 
-10) Checkout the merge_conflict branch and see the differences of the branches
+10) Use git add to add the changes of the file to the repository
 
-11) Merge the merge_conflict branch into the master branch
+11) Verify the .txt file has been removed from the repository
 
-12) Fix the conflicts by keeping both texts
+12) Add some text to the mergeConflict p tags in the index.html file
 
 13) Add and commit if there are any changes to the repo
 
-14) Add some text to the rebase p tags
+14) Look online to see if your change has been pushed.
 
-15) Add and commit your changes to the repo
+15) Checkout the merge_conflict branch and see the differences of the branches
 
-16) Checkout the rebase branch and see the differences of the branches
+16) Merge the merge_conflict branch into the master branch — because you forked you may need to use origin/merge_conflict
 
-17) Rebase the rebase branch into master (make sure to view the changes made to the repo, it should have text added to it)
+17) Fix the conflicts by keeping both texts
 
-18) Fix the conflicts by only keeping the text you wrote, not the text from the branch (This text will disappear :()
+18) Add and commit if there are any changes to the repo
 
-19) Add and commit your changes to the repo
+19) Add some text to the rebase p tags
 
-20) Put text into the stash p tags and then stash the changes
+20) Add and commit your changes to the repo
 
-21) Merge the merge branch into the master branch (make sure to view the changes made to the repo, it should have text added to it)
+21) Checkout the rebase branch and see the differences of the branches
 
-22) Add and commit if there are any changes to the repo
+22) Rebase the rebase branch into master (make sure to view the changes made to the repo, it should have text added to it)
 
-23) Pop from the stash
+23) Fix the conflicts by only keeping the text you wrote, not the text from the branch (This text will disappear :()
 
-24) Add and commit if there are any changes to the repo
+24) Add and commit your changes to the repo
 
-25) Put text into the remove p tags
+25) Put text into the stash p tags and then stash the changes
 
-26) Reset the repository
+26) Merge the merge branch into the master branch (make sure to view the changes made to the repo, it should have text added to it)
 
 27) Add and commit if there are any changes to the repo
 
-28) Create a gitignore file in the main section of the project
+28) Pop from the stash
 
-29) Ignore all the .txt files (and if you have a mac ignore the DS_Store files)
+29) Add and commit if there are any changes to the repo
 
-30) Add and commit if there are any changes to the repo
+30) Put text into the remove p tags
+
+31) Reset the repository
+
+32) Add and commit if there are any changes to the repo
 
 ### Extra Learning
 Free Git Tutorials
